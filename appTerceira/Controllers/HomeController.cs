@@ -67,5 +67,10 @@ namespace appTerceira.Controllers
             return RedirectToAction("Contact");
         }
 
+        public ActionResult Pessoa()
+        {
+            Pessoa objPessoa = new Pessoa();
+            return View(objPessoa);
+        }
     }
 }
